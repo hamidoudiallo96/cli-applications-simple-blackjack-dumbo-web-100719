@@ -33,7 +33,9 @@ end
 
 def initial_round
   # code #initial_round here
-  player_hand = deal_card + deal_card
+  first_draw =  deal_card 
+  second_draw = deal_card
+  player_hand = first_draw + second_draw
   card_total = display_card_total(player_hand)
   card_total
 end
