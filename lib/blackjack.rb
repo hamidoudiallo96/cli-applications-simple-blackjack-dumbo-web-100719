@@ -1,7 +1,7 @@
 def welcome
   # code #welcome here
   welcome_prompt =   'Welcome to the Blackjack Table.'
-  return welcome_prompt
+  puts welcome_prompt
 end
 
 def deal_card
