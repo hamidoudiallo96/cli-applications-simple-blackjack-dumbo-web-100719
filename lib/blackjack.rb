@@ -12,7 +12,7 @@ end
 
 def display_card_total(hand)
   # code #display_card_total here
-  puts "Your cards add up to #{hand}."
+  puts "Your cards add up to #{hand}"
 end
 
 def prompt_user
